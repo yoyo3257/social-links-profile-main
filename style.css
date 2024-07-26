@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* @font-face {
+  font-family: "linksP";
+  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+} */
+body {
+  background-color: #001524;
+  color: #d6cc99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+  width: 25%;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #445d48;
+  text-align: center;
+  /* color: #d6cc99; */
+  font-family: "Inter", serif;
+}
+.im img {
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 50%;
+}
+h3 {
+  color: #fde5d4;
+}
+.links {
+  /* border: #001524 solid; */
+  width: 100%;
+  margin: auto;
+}
+.links ul li {
+  list-style-type: none;
+  background-color: #2f3c46;
+  color: #fde5d4;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  height: 30px;
+  padding: 2px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.attribution {
+  margin-bottom: 10px;
+}
+.links a {
+  text-decoration: none;
+  color: #fde5d4;
+  /* border: #001524 solid; */
+ 
+}
+.links li:hover {color: #001524;
+  background-color: #fde5d4;
+  
+}
+.links li:hover a{
+    color: #001524;
+}
